@@ -21,7 +21,7 @@ const SelectClass = () => {
         </div>
         <div className="class-wrapper">
           <img className="frame" src="/img/classes/assassin.jpg" />
-          <p className="text-white font-bold text-center pt-3">Assasin</p>
+          <p className="text-white font-bold text-center pt-3">Assassin</p>
         </div>
       </div>
     </div>

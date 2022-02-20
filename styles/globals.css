@@ -6,5 +6,24 @@
   html {
     font-family: 'Roboto', sans-serif;
     background-color: #000;
+    background-image: url('/img/bg-guides.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+  }
+
+  .frame {
+    position: relative;
+  }
+
+  .frame::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('/img/classes-frame.webp') center/100%;
+    width: 157px;
+    height: 267px;
+    z-index: 2;
   }
 }

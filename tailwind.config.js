@@ -13,9 +13,6 @@ module.exports = {
         'gray': '#151515',
         'blue': '#057af0',
       },
-      backgroundImage: {
-        'guides-texture': "url('/img/bg-guides.jpg')",
-      },
     },
   },
   plugins: [],
